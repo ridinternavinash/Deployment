@@ -1,0 +1,82 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .signup-container {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      width: 350px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, select, textarea {
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: #2575fc;
+    }
+
+    textarea {
+      resize: none;
+      height: 60px;
+    }
+
+    .gender {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    .gender label {
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #2575fc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #1a5ed9;
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #2575fc;
+      text-decoration: none;
+    }
